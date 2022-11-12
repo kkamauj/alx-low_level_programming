@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the number of arguments passed into it
- * @argc: argument count
+ * main - prints the number of arguments
+ * @argc: count
  * @argv: arguments
  *
  * Return: 0

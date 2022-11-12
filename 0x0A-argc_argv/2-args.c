@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints its own name
+ * main - prints received.
  * @argc: count
  * @argv: arguments
  *
@@ -9,8 +9,9 @@
  */
 int main(int argc, char **argv)
 {
-	(void)argc;
+	int i;
 
-	printf("%s\n", argv[0]);
+	for (i = 0; i < argc; i++)
+		printf("%s\n", argv[i]);
 	return (0);
 }
